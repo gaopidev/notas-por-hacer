@@ -16,3 +16,9 @@ Una vez que tengas el código del proyecto, abre una terminal dentro de la carpe
 ```
 npm install
 ```
+
+Para echar a andar la aplicación usa el comando:
+
+```
+npm run dev
+```
