@@ -39,7 +39,7 @@ const App = () => {
 
 	const eliminarNota = (id) => {
 		const nuevas = notas.filter((nota) => nota.id !== id)
-		console.log(nuevas)
+		
 		setNotas(nuevas)
 	}
 
@@ -51,8 +51,7 @@ const App = () => {
 			return nota;
 		})
 		setNotas(nuevas);
-		//const editar = notas.filter( (nota)=> nota.id===id)
-		//console.log(nuevas);
+		
 	}
 
 	return (
